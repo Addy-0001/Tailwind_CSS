@@ -10,3 +10,5 @@ Follow this Template:
     2. 
     3. 
 Remove notes after issues have been resolved.
+
+//For the background, infinity symbol doesn't fill the exact scene. 
