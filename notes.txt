@@ -1,0 +1,12 @@
+Take any notes here. 
+Follow this Template: 
+    Notes by: [Name]
+    1.
+    2.
+    3.
+    ...
+    Notes For: [Name]
+    1. 
+    2. 
+    3. 
+Remove notes after issues have been resolved.
