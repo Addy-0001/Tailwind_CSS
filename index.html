@@ -2,26 +2,28 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
     <title>GetInToTo</title>
 </head>
 
-<body class="font-mono text-white bg-slate-700 w-100">
-
+<body class="font-mono text-white bg-slate-700">
     <!-- Nav Bar -->
-    <nav class="bg-cyan-700 dark:bg-slate-800 flex flex-wrap"> <!-- Start of Nav Bar -->
-        <ul class="w-[95%] space-x-10 my-2 flex">
-            <img src="./getintoto.png" alt="menu" class="w-[10em] bg-white mx-5 rounded-xl">
+    <nav class="bg-cyan-700 dark:bg-slate-800 flex flex-wrap">
+        <!-- Start of Nav Bar -->
+        <li class="space-x-10 my-2 flex flex-nowrap">
+            <img src="./getintoto.png" alt="menu" class="w-16 bg-white mx-5 rounded-xl" />
             <!-- Logo of the Company -->
-            <h1 class="text-center justify-center w-[100%] text-4xl font-bold text-white">GetInToTo</h1>
-        </ul>
+            <h1 class="text-center justify-center text-4xl font-bold text-white">
+                GetInToTo
+            </h1>
+        </li>
 
-        <li class="w-[95%] flex flex-wrap justify-center align-center  space-x-10">
+        <li class="w-[100em] flex flex-wrap justify-center align-center space-x-10">
             <button
                 class="animate-bounce outline outline-offset-2 my-4 h-5 item-center flex-end outline-blue-500 rounded-md text-white hover:bg-slate-900">
                 Home
@@ -39,144 +41,183 @@
         </li>
     </nav>
 
-    <span class="flex flex-row flex-wrap justify-center space-x-10">
+    <span class="flex flex-wrap justify-between my-3">
         <div
-            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl align-center justify-center  text-left hover:bg-cyan-900">
-            <h1 class="text-center text-2xl font-bold" data-modal-toggle="modalID">Category <br> Title of the blog</h1>
-            <hr class="my-1">
-            <img src="./background.png" alt="background">
-            <hr class="my-1">
+            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl align-center justify-center text-left hover:bg-cyan-900">
+            <h1 class="text-center text-2xl font-bold">
+                Category <br />
+                Title of the blog
+            </h1>
+            <hr class="my-1" />
+            <img src="./background.png" alt="background" />
+            <hr class="my-1" />
             <h2 class="text-sm italic font-bold">Author: Name of the Author</h2>
             <h3 class="text-sm italic font-bold">Date: Date of Release</h3>
-            <hr class="my-1">
+            <hr class="my-1" />
             <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ullam repudiandae vero, doloribus
-                expedita dolor harum fugiat minus facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
-                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure natus pariatur minima sint, ad odit
-                alias
-                molestias doloremque nesciunt mollitia numquam incidunt voluptatibus. </p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+                ullam repudiandae vero, doloribus expedita dolor harum fugiat minus
+                facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
+                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure
+                natus pariatur minima sint, ad odit alias molestias doloremque
+                nesciunt mollitia numquam incidunt voluptatibus.
+            </p>
         </div>
         <div
-            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl  flex flex-col align-center justify-center  text-left hover:bg-cyan-900">
-            <h1 class="text-center text-2xl font-bold ">Category <br> Title of the blog</h1>
-            <hr class="my-1">
-            <img src="./background.png" alt="background">
-            <hr class="my-1">
+            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl align-center justify-center text-left hover:bg-cyan-900">
+            <h1 class="text-center text-2xl font-bold">
+                Category <br />
+                Title of the blog
+            </h1>
+            <hr class="my-1" />
+            <img src="./background.png" alt="background" />
+            <hr class="my-1" />
             <h2 class="text-sm italic font-bold">Author: Name of the Author</h2>
             <h3 class="text-sm italic font-bold">Date: Date of Release</h3>
-            <hr class="my-1">
+            <hr class="my-1" />
             <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ullam repudiandae vero, doloribus
-                expedita dolor harum fugiat minus facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
-                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure natus pariatur minima sint, ad odit
-                alias
-                molestias doloremque nesciunt mollitia numquam incidunt voluptatibus. </p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+                ullam repudiandae vero, doloribus expedita dolor harum fugiat minus
+                facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
+                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure
+                natus pariatur minima sint, ad odit alias molestias doloremque
+                nesciunt mollitia numquam incidunt voluptatibus.
+            </p>
         </div>
 
         <div
-            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl   flex flex-col align-center justify-center  text-left hover:bg-cyan-900">
-            <h1 class="text-center text-2xl font-bold ">Category <br> Title of the blog</h1>
-            <hr class="my-1">
-            <img src="./background.png" alt="background">
-            <hr class="my-1">
+            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl align-center justify-center text-left hover:bg-cyan-900">
+            <h1 class="text-center text-2xl font-bold">
+                Category <br />
+                Title of the blog
+            </h1>
+            <hr class="my-1" />
+            <img src="./background.png" alt="background" />
+            <hr class="my-1" />
             <h2 class="text-sm italic font-bold">Author: Name of the Author</h2>
             <h3 class="text-sm italic font-bold">Date: Date of Release</h3>
-            <hr class="my-1">
+            <hr class="my-1" />
             <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ullam repudiandae vero, doloribus
-                expedita dolor harum fugiat minus facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
-                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure natus pariatur minima sint, ad odit
-                alias
-                molestias doloremque nesciunt mollitia numquam incidunt voluptatibus. </p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+                ullam repudiandae vero, doloribus expedita dolor harum fugiat minus
+                facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
+                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure
+                natus pariatur minima sint, ad odit alias molestias doloremque
+                nesciunt mollitia numquam incidunt voluptatibus.
+            </p>
         </div>
         <div
-            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl    flex flex-col align-center justify-center  text-left hover:bg-cyan-900">
-            <h1 class="text-center text-2xl font-bold ">Category <br> Title of the blog</h1>
-            <hr class="my-1">
-            <img src="./background.png" alt="background">
-            <hr class="my-1">
+            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl align-center justify-center text-left hover:bg-cyan-900">
+            <h1 class="text-center text-2xl font-bold">
+                Category <br />
+                Title of the blog
+            </h1>
+            <hr class="my-1" />
+            <img src="./background.png" alt="background" />
+            <hr class="my-1" />
             <h2 class="text-sm italic font-bold">Author: Name of the Author</h2>
             <h3 class="text-sm italic font-bold">Date: Date of Release</h3>
-            <hr class="my-1">
+            <hr class="my-1" />
             <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ullam repudiandae vero, doloribus
-                expedita dolor harum fugiat minus facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
-                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure natus pariatur minima sint, ad odit
-                alias
-                molestias doloremque nesciunt mollitia numquam incidunt voluptatibus. </p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+                ullam repudiandae vero, doloribus expedita dolor harum fugiat minus
+                facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
+                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure
+                natus pariatur minima sint, ad odit alias molestias doloremque
+                nesciunt mollitia numquam incidunt voluptatibus.
+            </p>
         </div>
         <div
-            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl    flex flex-col align-center justify-center  text-left hover:bg-cyan-900">
-            <h1 class="text-center text-2xl font-bold ">Category <br> Title of the blog</h1>
-            <hr class="my-1">
+            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl align-center justify-center text-left hover:bg-cyan-900">
+            <h1 class="text-center text-2xl font-bold">
+                Category <br />
+                Title of the blog
+            </h1>
+            <hr class="my-1" />
             <h2 class="text-sm italic font-bold">Author: Name of the Author</h2>
             <h3 class="text-sm italic font-bold">Date: Date of Release</h3>
-            <hr class="my-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique distinctio quidem perferendis cum
-            accusantium vero provident porro optio aspernatur nulla sequi ex possimus eveniet fugiat suscipit, veniam
-            modi atque architecto laboriosam beatae. Vero maiores quisquam cum dolorum, saepe sit minima fugiat aperiam,
-            aspernatur necessitatibus voluptatibus. Sed quo vitae itaque amet!
+            <hr class="my-1" />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            distinctio quidem perferendis cum accusantium vero provident porro optio
+            aspernatur nulla sequi ex possimus eveniet fugiat suscipit, veniam modi
+            atque architecto laboriosam beatae. Vero maiores quisquam cum dolorum,
+            saepe sit minima fugiat aperiam, aspernatur necessitatibus voluptatibus.
+            Sed quo vitae itaque amet!
         </div>
         <div
-            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl    flex flex-col align-center justify-center  text-left hover:bg-cyan-900">
-            <h1 class="text-center text-2xl font-bold ">Category <br> Title of the blog</h1>
-            <hr class="my-1">
+            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl align-center justify-center text-left hover:bg-cyan-900">
+            <h1 class="text-center text-2xl font-bold">
+                Category <br />
+                Title of the blog
+            </h1>
+            <hr class="my-1" />
             <h2 class="text-sm italic font-bold">Author: Name of the Author</h2>
             <h3 class="text-sm italic font-bold">Date: Date of Release</h3>
-            <hr class="my-1">
+            <hr class="my-1" />
             <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ullam repudiandae vero, doloribus
-                expedita dolor harum fugiat minus facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
-                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure natus pariatur minima sint, ad odit
-                alias
-                molestias doloremque nesciunt mollitia numquam incidunt voluptatibus. </p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+                ullam repudiandae vero, doloribus expedita dolor harum fugiat minus
+                facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
+                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure
+                natus pariatur minima sint, ad odit alias molestias doloremque
+                nesciunt mollitia numquam incidunt voluptatibus.
+            </p>
         </div>
         <div
-            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl    flex flex-col align-center justify-center  text-left hover:bg-cyan-900">
-            <h1 class="text-center text-2xl font-bold ">Category <br> Title of the blog</h1>
-            <hr class="my-1">
+            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl align-center justify-center text-left hover:bg-cyan-900">
+            <h1 class="text-center text-2xl font-bold">
+                Category <br />
+                Title of the blog
+            </h1>
+            <hr class="my-1" />
             <h2 class="text-sm italic font-bold">Author: Name of the Author</h2>
             <h3 class="text-sm italic font-bold">Date: Date of Release</h3>
-            <hr class="my-1">
+            <hr class="my-1" />
             <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ullam repudiandae vero, doloribus
-                expedita dolor harum fugiat minus facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
-                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure natus pariatur minima sint, ad odit
-                alias
-                molestias doloremque nesciunt mollitia numquam incidunt voluptatibus. </p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+                ullam repudiandae vero, doloribus expedita dolor harum fugiat minus
+                facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
+                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure
+                natus pariatur minima sint, ad odit alias molestias doloremque
+                nesciunt mollitia numquam incidunt voluptatibus.
+            </p>
         </div>
         <div
-            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl    flex flex-col align-center justify-center  text-left hover:bg-cyan-900">
-            <h1 class="text-center text-2xl font-bold ">Category <br> Title of the blog</h1>
-            <hr class="my-1">
+            class="border-2 p-1 m-2 bg-cyan-800 text-slate-50 min-w-[15em] max-w-[25em] min-h-[30em] rounded-xl align-center justify-center text-left hover:bg-cyan-900">
+            <h1 class="text-center text-2xl font-bold">
+                Category <br />
+                Title of the blog
+            </h1>
+            <hr class="my-1" />
             <h2 class="text-sm italic font-bold">Author: Name of the Author</h2>
             <h3 class="text-sm italic font-bold">Date: Date of Release</h3>
-            <hr class="my-1">
+            <hr class="my-1" />
             <p class="text-justify">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ullam repudiandae vero, doloribus
-                expedita dolor harum fugiat minus facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
-                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure natus pariatur minima sint, ad odit
-                alias
-                molestias doloremque nesciunt mollitia numquam incidunt voluptatibus. </p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+                ullam repudiandae vero, doloribus expedita dolor harum fugiat minus
+                facere eveniet asperiores alias dolorum quod eaque optio beatae maxime
+                accusantium saepe, voluptatibus vel molestias! Quisquam animi iure
+                natus pariatur minima sint, ad odit alias molestias doloremque
+                nesciunt mollitia numquam incidunt voluptatibus.
+            </p>
         </div>
     </span>
 
     <footer class="bg-slate-800 justify-center align-center items-center text-center text-white py-3">
-        <li class="w-100 flex flex-wrap justify-center text-center">
+        <li class="w-[99%] flex flex-wrap justify-center text-center">
             <form action="input">
-                <h1 class="text-center text-2xl font-bold "> Join the Newsletter</h1>
+                <h1 class="text-center text-2xl font-bold">Join the Newsletter</h1>
                 <input type="text" class="w-full px-2 py-2 border border-blue-500 rounded-lg"
-                    placeholder="example@email.com">
+                    placeholder="example@email.com" />
                 <button type="submit"
                     class="animate outline outline-offset-2 my-3 h-6 outline-blue-500 rounded-sm hover:bg-slate-900">
                     Submit
                 </button>
             </form>
         </li>
-        <a href="#" class="text-white"> Sitemap </a>|<a href="#" class="text-white"> Privacy Policy </a>|<a href="#"
-            class="text-white"> Contact US </a>
+        <a href="#" class="text-white"> Sitemap </a>|<a href="#" class="text-white">
+            Privacy Policy </a>|<a href="#" class="text-white"> Contact US </a>
     </footer>
-
 </body>
 
 </html>
